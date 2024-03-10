@@ -1,0 +1,24 @@
+{
+  "name": "mongoreplicate",
+  "version": "1.0.0",
+  "description": "Simple app to create MongoDB backups and apply them to another database",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongo-scanner": "^3.0.5",
+    "mongodb": "^5.6.0",
+    "nedb": "^1.8.0",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.22",
+    "prompt-sync": "^4.2.0",
+    "sqlite3": "^5.1.6"
+  }
+}
